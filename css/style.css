@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    padding-left: 50px;
+}
+
+
+html {
+    font-size: 0.9em; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+header {
+    background-color: rgb(123, 127, 180);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer {
+    background-color: rgb(123, 115, 167);
+    padding: 20px;
+}
+
+.about {
+    background-color: rgb(139, 141, 145);
+    padding: 20px;
+    text-align: center;
+}
+.articles {
+    background-color: rgb(129, 128, 189);
+}
+
+
+
+
+
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.3rem;
+    text-align: justify;
+}
+h2 {
+    font-size: 2rem;
+    color: rgb(75, 0, 130); 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+img {
+    display: block;
+    margin: 50px auto;
+}
+
+
+a:link { color: blueviolet; }
+a:visited { color: pink; }
+a:focus { color: palegreen; }
+a:hover { color: brown; }
+a:active { color: yellow; }
+
+header a {
+    color: blueviolet;
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+
+header a:hover,
+header a:focus,
+header a:active {
+    text-decoration: line-through; 
+}
+
+
+.articles li:nth-child(even) {
+    background-color: rgb(108, 131, 196);
+}
+
+h2::after {
+    content: "new";
+    font-size: 10px;
+    color: rgb(93, 169, 219);
+    margin-left: 10px;
+}
+h2::before {
+    content: "\F71F";
+    font-family: "bootstrap-icons";
+    margin-right: 10px;
+    color:rgb(55, 25, 160);
+}
+
+.my a {
+    color:rgb(0, 47, 255);
+}
